@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# exemplo-material-ui
+> Exemplo de UI utilizando ReactJS & Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hooks são uma nova adição a partir do React 16.8. 
+Eles permitem que você use o state e outros recursos do React sem escrever uma classe.
 
-## Available Scripts
+O projeto utiliza o [Material-ui](http://material-ui.com/) e é um exemplo de uma tela inicial,
+formulário de login e uma área de Dashboard que carrega a cotação das moedas utilizando a API [AwesomeAPI](https://docs.awesomeapi.com.br/)
 
-In the project directory, you can run:
+Projeto utilizado nas minhas aulas de Programação para a Internet.
+O projeto está todo em português, com o objetivo de facilitar o primeiro contato com a tecnologia. :wink:
 
-### `npm start`
+![](/src/assets/images/exemplo-app.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalação
+É necessário ter o Node.js e o NPM instalados em seu ambiente.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Em seguida basta, carregar todas as dependências através do npm:
+```sh
+cd exemplo-reactjs-material-ui
+npm i
+```
+Abra o projeto no seu [editor preferido](https://code.visualstudio.com/), abra o Terminal e carregue o projeto, informando:
+```sh
+npm start
+```
 
-### `npm test`
+_Para mais especificações, consulte a documentação dentro do próprio código fonte._
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Atenção!
+Como o projeto não utiliza nenhum backend, a comparação com a senha está apenas demonstrativa.
+Edite o arquivo src/pages/Login/index.html e informe o seu usuário e senha ou implemente a validação com o banco de dados.
+```sh
+if (email === "alguem@email.com" && senha === "123senha") {
+```    
 
-### `npm run build`
+## Histórico de lançamentos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* 0.0.1
+    * Projeto inicial
+    * Adicionado o formulário de Login e a área de Dashboard
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Meta
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Prof. Ricardo Leme – [@ricardoleme](https://twitter.com/ricardorleme) 
 
-### `npm run eject`
+Distribuído sob a licença [MIT](https://opensource.org/licenses/MIT).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
